@@ -8,11 +8,11 @@ public class App
 {
     private String name;
 
-    public String setName(String name){
-        return this.name;
+    public void setName(String name){
+        this.name = name;
     }
 
-    public String setName(){
+    public String getName(){
         return name;
     }
 

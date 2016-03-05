@@ -9,8 +9,11 @@ import org.junit.Test;
  */
 public class AppTest
 {
+    App app = new App();
+    app.setName("Super");
+    
     @Test
     public void testNull(){
-        Assert.assertNull(new App().setName());
+        Assert.assertNull(new App().getName());
     }
 }

@@ -6,9 +6,12 @@ package co.za.applicafro.sivuyile;
  */
 public class App 
 {
+    public App() {
+    }
+
     private String name;
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
